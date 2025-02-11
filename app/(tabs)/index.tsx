@@ -4,7 +4,7 @@ import React from 'react'
 export default function Index() {
   return (
     <View>
-      <Text>Index</Text>
+      <Text>Bienvenido a la Bliblioteca Pública de México</Text>
     </View>
   );
 }

@@ -5,7 +5,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#ffd33d",
+        tabBarActiveTintColor: "#ff0055",
         headerStyle: {
           backgroundColor: "#25292e",
         },
@@ -35,9 +35,7 @@ export default function TabLayout() {
           title: "Add Book",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={
-                focused ? "clipboard-sharp" : "clipboard-outline"
-              }
+              name={focused ? "clipboard-sharp" : "clipboard-outline"}
               color={color}
               size={24}
             />
@@ -50,9 +48,7 @@ export default function TabLayout() {
           title: "Table",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={
-                focused ? "grid-sharp" : "grid-outline"
-              }
+              name={focused ? "grid-sharp" : "grid-outline"}
               color={color}
               size={24}
             />
